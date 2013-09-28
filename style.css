@@ -1,0 +1,6 @@
+.no-js .neo-content:before {
+    display: none !important;
+}
+.no-js .neo-content:after {
+    display: none !important;
+}

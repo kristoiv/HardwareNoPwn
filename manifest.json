@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "HardwareNoPwn",
+    "description": "Hardware.no pwn – AdBlock rules",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "http://www.hardware.no/"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["http://www.hardware.no/*"],
+            "css": ["style.css"]
+        }
+    ]
+}
